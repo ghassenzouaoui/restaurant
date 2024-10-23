@@ -1,0 +1,102 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <section class="navbar" >
+      <h1>L'Atelier des Délices</h1>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#a-propos">À propos de nous</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </section>
+    <section id="accueil">
+      <div class="hero-content">
+        <h1>Découvrez nos plats délicieux</h1>
+        <button onclick="location.href='#menu'">Voir le Menu</button>
+      </div>
+    </section>
+    <section class="menu-section" id="menu">
+      <h1>Notre Menu</h1>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="./img/pate.jpg" alt="Plat 1" />
+          <h2>Pâtes Carbonara</h2>
+          <p>
+            Des spaghetti al dente enrobés d'une sauce crémeuse à base de jaune
+            d'œuf, de fromage Parmigiano Reggiano et de pancetta croustillante,
+            le tout relevé d'un peu de poivre noir fraîchement moulu.
+          </p>
+          <div class="price">€12.50</div>
+        </div>
+        <div class="menu-item">
+          <img src="./img/pizza.jpg" alt="Plat 2" />
+          <h2>Pizza Margherita</h2>
+          <p>
+            Une délicieuse pizza garnie de sauce tomate maison, de mozzarella
+            fondante et de feuilles de basilic frais, cuite à la perfection dans
+            un four à bois pour un goût authentique.
+          </p>
+          <div class="price">€15.00</div>
+        </div>
+        <div class="menu-item">
+          <img
+            src="./img/tartare.jpg"
+            alt="Plat 3"
+          />
+          <h2>Tartare de Saumon</h2>
+          <p>
+            Saumon frais coupé en dés, mélangé avec de l'avocat crémeux, des
+            câpres et un léger assaisonnement au citron, servi avec des
+            croustillants de pain pour une entrée rafraîchissante.
+          </p>
+          <div class="price">€10.00</div>
+        </div>
+      </div>
+    </section>
+    <section class="about-section" id="a-propos">
+      <img src="./img/logo.png" alt="Ambiance du restaurant" />
+      <div class="about-text">
+        <h2>À propos de notre restaurant</h2>
+        <p>
+          Bienvenue dans notre restaurant, où chaque plat est préparé avec
+          passion et des ingrédients de la meilleure qualité. Nous croyons en la
+          gastronomie authentique, et notre équipe s'engage à vous offrir une
+          expérience culinaire mémorable. Que vous soyez ici pour un repas
+          décontracté ou une occasion spéciale, nous sommes impatients de vous
+          servir et de vous faire découvrir nos créations savoureuses.
+        </p>
+      </div>
+    </section>
+    <section class="contact-section" id="contact">
+      <h1 class="b">Contactez-nous</h1>
+      <form class="contact-form">
+        <input type="text" name="nom" placeholder="Votre nom" required />
+        <input type="email" name="email" placeholder="Votre email" required />
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Votre message"
+          required
+        ></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+    <footer>
+     
+        <p>&copy; 2024 Nom du Restaurant. Tous droits réservés.</p>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank">📘</a>
+          <a href="https://twitter.com" target="_blank">🐦</a>
+          <a href="https://instagram.com" target="_blank">📸</a>
+          <a href="https://linkedin.com" target="_blank">🔗</a>
+        </div>
+      </footer>
+    
+  </body>
+</html>
